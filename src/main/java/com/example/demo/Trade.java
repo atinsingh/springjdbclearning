@@ -67,4 +67,16 @@ public class Trade {
     public void setDirection(String direction) {
         this.direction = direction;
     }
+
+    @Override
+    public String toString() {
+        return "Trade{" +
+                "id=" + id +
+                ", account='" + account + '\'' +
+                ", security='" + security + '\'' +
+                ", quantity=" + quantity +
+                ", status='" + status + '\'' +
+                ", direction='" + direction + '\'' +
+                '}';
+    }
 }
