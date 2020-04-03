@@ -1,0 +1,14 @@
+JDBCTemplate // What kind of database?
+-->Relational Database
+    MYSQL
+    Oracle
+    Postgres
+--> JDBC abstraction
+--> table call trades
+      private Long id;
+         private String account;
+         private String security;
+         private Long quantity;
+         private String status;
+         private String direction;
+
