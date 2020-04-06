@@ -1,6 +1,8 @@
 package com.example.demo;
 
-public class Trade {
+import java.io.Serializable;
+
+public class Trade implements Serializable {
     private Long id;
     private String account;
     private String security;
